@@ -1,0 +1,44 @@
+hr {
+    margin: 4px;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+
+.Testimonial_testimonial__69LWB {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding: 4rem 5rem;
+    position: relative;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-primaryDark {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primaryDark-rgb),var(--bs-text-opacity))!important;
+}
+
+
+ul  {
+  padding-left: 0;
+}
+ul li {
+   list-style-position: inside;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.box {
+    border-right: 1px solid black;
+}
+
+.no_underline{
+    text-decoration: none;
+}

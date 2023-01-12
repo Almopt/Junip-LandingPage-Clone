@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Junip</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-md py-3">
+
+		<div class="container ">
+
+			<a class="navbar-brand " href="#"><span>Junit*</span></a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navmenu">
+					
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item">
+							<a href="#customers" class="nav-link">Customers</a>
+						</li>
+						<li class="nav-item">
+							<a href="#pricing" class="nav-link">Pricing</a>
+						</li>	
+						<li class="nav-item">
+							<a href="#parthers" class="nav-link">Parthers</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Integrations</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Blog</a>
+						</li>				
+					</ul>
+
+					<form class="d-flex justify-content-end">
+					 	<a href="#" class="btn d-md-block d-none mx-auto">SIGN IN</a>
+						<button type="button" class="btn btn-dark mx-auto rounded-pill px-md-4 px-0 d-md-block d-none"
+						>SIGN UP</button> 
+					 </form>
+
+			</div>
+			
+		</div>	
+
+	</nav>
+
+	<hr class="mb-sm-5" style="height:1.6px;border-width:0;color:black;background-color:black;">
+
+	<!-- HeroSection -->
+	<section class="text-center">
+		
+		<div class="container">
+
+			<div class="d-flex flex-column justify-content-center p-5">
+
+				<h1 class="display-1 ">Reviews for Products</h1>
+				<h1 class="text-success-emphasis display-1 ">
+					<u>Worth talking about</u>
+				</h1>
+
+				<p class="lead py-3"> 
+					Join 3,000+ brands who gather more reviews & display them <br>everywhere that matters, with Junip
+				</p>
+
+				<div class="d-block d-md-flex justify-content-center align-items-center pt-2">
+					<button type="button" class="btn btn-dark btn-lg rounded-pill px-5 mb-3 mb-md-0 d-block mx-auto mx-md-0" type="button">START NOW</button>
+					<a href="#" class="btn btn-lg ">CONTACT SALES</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- Parthers	 -->
+	<section class="bg-warning p-5 mt-5">
+
+		<div class="container text-center">
+
+			<div class="d-flex justify-content-around ">
+				<a target="_blank" href="#">
+					<img src="img/amazon.png">
+				</a>
+
+				<a target="_blank" href="#">
+					<img src="img/apple.png">
+				</a>
+
+				<a target="_blank" href="#">
+					<img src="img/facebook.png">
+				</a>
+
+				<a target="_blank" href="#">
+					<img src="img/google.png">
+				</a>
+			</div>
+
+		</div>
+		
+	</section>
+
+	<hr class="p-0 m-0" style="height:2px;border-width:0;color:black;background-color:black">
+
+	<section class="p-5" id="customers">
+		
+		 <div class="container"> <!--text-center -->
+
+			<div class="row">
+
+				<div class="col-md-7">
+					<h1>JUNIP HELPS YOU COLLECT MORE REVIEWS FROM YOUR CUSTOMERS.</h1>
+				</div>
+
+				<div class="col-md-5 ">
+
+					<div class="row">
+
+						<div class="col-md mt-5 mt-md-0 d-md-flex justify-content-end">
+
+							<img class="position-absolute px-5" src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjE2MiIgdmlld0JveD0iMCAwIDE2MiAxNjIiIHdpZHRoPSIxNjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iODAuNjI2MyIgY3k9IjgwLjYyNjMiIGZpbGw9IiMwMDllNWMiIHI9IjgwLjYyNjMiLz48cGF0aCBkPSJtNDEuNzUxMiA5Ni44ODg4YzUuODY5OSAwIDkuMjk4LTMuNTY4OSA5LjI5OC05LjcyMDZ2LTIzLjkwMjVoLTUuNjM1MnYyMy42MjA3YzAgMy4yNDAyLTEuMTczOSA0Ljc4OTktMy42MTU4IDQuNzg5OXMtMy43NTY4LTEuNTAyNy0zLjc1NjgtNC42NDl2LTguMzU4OGgtNS42MzUydjguNjQwNWMwIDYuMjQ1NyAzLjI0MDMgOS41Nzk4IDkuMzQ1IDkuNTc5OHoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJtNjAuOTY5OCA5Ni43NDc5YzMuNDc1IDAgNS40OTQyLTIuMTEzMiA2Ljc2MjEtNi40ODA0aC44NDUzbC0xLjQ1NTcgNS44Njk5aDUuMzUzNHYtMjIuNzc1M2gtNS4zNTM0djEyLjUzODJjMCAzLjY2MjgtMS41NDk3IDUuOTE2OS00LjAzODYgNS45MTY5LTIuMDY2MiAwLTMuMDUyMy0xLjMxNDktMy4wNTIzLTMuOTkxNnYtMTQuNDYzNWgtNS4zNTM0djE1LjczMTRjMCA1LjAyNDcgMi4xMTMyIDcuNjU0NCA2LjI5MjYgNy42NTQ0eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Im04Mi4wMDg3IDk2LjEzNzR2LTEyLjUzODJjMC0zLjY2MjggMS41OTY3LTUuOTYzOCA0LjIyNjQtNS45NjM4IDIuMjA3MSAwIDMuMzM0MSAxLjM2MTggMy4zMzQxIDQuMDM4NXYxNC40NjM1aDUuMzUzNHYtMTUuNzc4NGMwLTQuOTc3Ny0yLjI1NC03LjY1NDQtNi41NzQzLTcuNjU0NC0zLjU2ODkgMC01LjY4MjEgMi4xNjAyLTYuOTk3IDYuNDgwNGgtLjg0NTNsMS41MDI3LTUuODIyOWgtNS4zNTM0djIyLjc3NTN6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0ibTEwNC4xNjQgNjkuOTM0di02LjAxMDhoLTUuNjM1NHY2LjAxMDh6bS0uMTQxIDI2LjIwMzR2LTIyLjc3NTNoLTUuMzUzNXYyMi43NzUzeiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Im0xMTMuNTYzIDEwNC41OXYtOC40NTI2bC0xLjUwMi01Ljg2OTloLjg0NWMxLjE3NCA0LjI3MzMgMy4zMzQgNi40ODA0IDYuODA5IDYuNDgwNCAyLjYzIDAgNC43NDMtMS4wODAxIDYuMTUyLTMuMTQ2MyAxLjQwOS0yLjAxOTIgMi4xMTMtNC45Nzc3IDIuMTEzLTguODc1MyAwLTMuODUwNy0uNzA0LTYuODA5Mi0yLjExMy04LjgyODQtMS40MDktMi4wNjYzLTMuNTIyLTMuMTkzMy02LjE1Mi0zLjE5MzMtMy40NzUgMC01LjYzNSAyLjI1NDEtNi44MDkgNi40ODA0aC0uODQ1bDEuNTAyLTUuODIyOWgtNS4zNTN2MzEuMjI3OXptNC40MTUtMTIuNTg1Yy0xLjM2MiAwLTIuNDg5LS42MTA1LTMuMjQxLTEuNjkwNi0uODQ1LTEuMTczOS0xLjI2OC0zLjA1MjMtMS4yNjgtNS41ODgxIDAtMi40ODg5LjQyMy00LjM2NzMgMS4yNjgtNS41NDEzLjc1Mi0xLjA4IDEuODc5LTEuNjkwNSAzLjI0MS0xLjY5MDUgMS40MDggMCAyLjUzNS42MTA1IDMuMjg3IDEuNjkwNS43OTggMS4yMjEgMS4yNjggMy4wNTI0IDEuMjY4IDUuNTQxMyAwIDIuNTM1OC0uNDcgNC4zNjcyLTEuMjY4IDUuNTg4MS0uNzUyIDEuMDgwMS0xLjg3OSAxLjY5MDYtMy4yODcgMS42OTA2eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Im0xNDYuNTY5IDY0LjgwODZjMS4xOTggNS4wNTQzIDEuODMyIDEwLjMyNjggMS44MzIgMTUuNzQ3MyAwIDM3LjU3MTEtMzAuNDU4IDY4LjAyODEtNjguMDI4OCA2OC4wMjgxLTM3LjU3MTEgMC02OC4wMjg1LTMwLjQ1Ny02OC4wMjg1LTY4LjAyODEgMC01LjQyMDUuNjM0LTEwLjY5MyAxLjgzMTktMTUuNzQ3MyIgc3Ryb2tlPSIjZmZmIi8+PGcgZmlsbD0iI2ZmZiI+PHBhdGggZD0ibTM4LjQ1NjMgNDAuNjE3OWMtLjI1MDEtLjA2LS41MDA3LS4xNjA4LS43NTE1LS4zMDI0LS4yNTc3LS4xNDczLS42MjAyLS40MTc0LTEuMDg3NS0uODEwNC0uNDk0NC0uNDE1Ny0uOTI3NS0uNTk1LTEuMjk5NC0uNTM3Ny0uMzc4Ni4wNTE2LS43NDE2LjI4MzktMS4wODkuNjk3bC0xLjQ1MjMgMS43MjcgMi45NDYxIDIuNDc3My0uOTM5NyAxLjExNzUtNy4xMTExLTUuOTc5NyAyLjg2MTctMy40MDMyYy4zOTg2LS40NzQxLjgyNzgtLjgxMjYgMS4yODc2LTEuMDE1Ni40NTk4LS4yMDMxLjkxMjctLjI2NzMgMS4zNTg3LS4xOTI4LjQ0NS4wNjIuODQ3LjI0MzkgMS4yMDU5LjU0NTcuNDUzOC4zODE2LjczNzguODM0NC44NTIyIDEuMzU4My4xMDc2LjUxODMuMDUxMyAxLjA2NjQtLjE2ODggMS42NDQzLjQyNTktLjIzMTUuODU0MS0uMzI4MSAxLjI4NDQtLjI5LjQyMzYuMDMyNS44NzA4LjIyOTQgMS4zNDE3LjU5MDYuNDMwMi4zMjcxLjc2MTEuNTU5MS45OTI4LjY5NjEuMjMwNS4xMjQ1LjQ4MzUuMTgxMi43NTg5LjE2OTlsLjE2MjUuMTM2N3ptLTQuOTA5Ny0yLjMwNzZjLjMyNDYtLjM4Ni40ODcxLS43NTguNDg3Ni0xLjExNi4wMDYyLS4zNjQ4LS4xNTMzLS42ODM5LS40Nzg0LS45NTczLS4zMjUxLS4yNzMzLS42NjY4LS4zNzU3LTEuMDI1MS0uMzA3LS4zNTI2LjA2MTktLjY5MTIuMjg1OC0xLjAxNTkuNjcxOWwtMS44MzY2IDIuMTg0MSAyLjAzMTggMS43MDg1eiIvPjxwYXRoIGQ9Im00MS43NTk4IDM3LjI4NTQtNS45NTMzLTcuMTMzMiA1LjE5Ny00LjMzNzQuODkzIDEuMDY5OS00LjA3NjEgMy40MDIgMS41MzA5IDEuODM0MiAzLjc3MDQtMy4xNDY4Ljg5MyAxLjA3LTMuNzcwNCAzLjE0NjggMS43NDM1IDIuMDg5IDQuMTc4LTMuNDg2OS44OTMgMS4wNjk5eiIvPjxwYXRoIGQ9Im00NS42NTkgMjIuNzM2MyA2Ljc2NTkgNS40OTAxLTEuMjIwNy04LjYyNzEgMS40MzI2LS44MTA0IDEuMjQ3NyA5Ljk2OS0xLjc1NTkuOTkzNC03LjkwMjEtNi4yMDQ1eiIvPjxwYXRoIGQ9Im02MC43MDk1IDI1LjcxMjktMS4zNjEuNTI4NS0zLjM2MjYtOC42NjEzIDEuMzYxLS41Mjg1eiIvPjxwYXRoIGQ9Im02NC42MjYzIDI0LjM0MjctMi4xNjE5LTkuMDM2MSA2LjU4MzQtMS41NzUxLjMyNDMgMS4zNTU0LTUuMTYzNSAxLjIzNTQuNTU1OSAyLjMyMzUgNC43NzYzLTEuMTQyNy4zMjQyIDEuMzU1NC00Ljc3NjIgMS4xNDI4LjYzMzEgMi42NDYzIDUuMjkyNi0xLjI2NjMuMzI0MyAxLjM1NTR6Ii8+PHBhdGggZD0ibTc3Ljk1NDkgMjIuMTU2OC0yLjM4ODMuMDY0OC0yLjQ0MS05LjIyODQgMS41MjU5LS4wNDE0IDIuMDgxNiA4LjIxNTcgMS42MzM1LTguMzE2NCAyLjUyMDktLjA2ODMgMi4wODE2IDguMjE1NyAxLjYzMzUtOC4zMTY0IDEuNTI1OS0uMDQxNC0xLjkzNzYgOS4zNDcxLTIuMzg4Mi4wNjQ3LTIuMTQ5NC04LjI2N3oiLz48cGF0aCBkPSJtODguMjc3MSAyMi41MTY4IDEuNjY5Mi05LjEzOTkgNi42NTkyIDEuMjE2MS0uMjUwNCAxLjM3MS01LjIyMjktLjk1MzgtLjQyOTIgMi4zNTAyIDQuODMxMS44ODI0LS4yNTA0IDEuMzcxLTQuODMxMS0uODgyNC0uNDg4OSAyLjY3NjcgNS4zNTM0Ljk3NzgtLjI1MDQgMS4zNzA5eiIvPjxwYXRoIGQ9Im05Ny44ODc3IDI0LjYwMTggMy4yODQzLTguNjkxMyAzLjI5IDEuMjQzM2MuOTI3LjM1MDMgMS42NDYuODM5NCAyLjE1NiAxLjQ2NzMuNTEzLjYxOTUuODEgMS4zMjMuODkxIDIuMTEwM3MtLjA0MSAxLjYxMTQtLjM2NyAyLjQ3MjJjLS4zMDkuODE5NS0uNzU2IDEuNDg3OS0xLjMzOSAyLjAwNTMtLjU4NC41MTc0LTEuMjczLjgzODgtMi4wNjcuOTY0Mi0uNzk1LjEyNTQtMS42NDcuMDE2MS0yLjU1OC0uMzI4em00LjE4MTMtNi45MzM2LTIuMzQ2NCA2LjIwODEgMS45MjQ0LjcyNzJjLjYzOC4yNDA4IDEuMjMxLjMwOTEgMS43ODIuMjA0OS41NTMtLjExMjYgMS4wMjctLjM1NDIgMS40MjMtLjcyNS40MDctLjM3Ni43MTUtLjg0MTMuOTI1LTEuMzk1OS4yMzEtLjYxMjUuMzI0LTEuMTk2OS4yNzktMS43NTMxLS4wNDItLjU2NDYtLjIzNS0xLjA2NzktLjU3OS0xLjUxLS4zNDQtLjQ0Mi0uODM4LS43ODUtMS40ODQtMS4wMjl6Ii8+PHBhdGggZD0ibTExNi4yNzUgMzQuNTQzMmMtLjcwNi0uNTQ3NS0xLjIyMy0xLjIxNjgtMS41NS0yLjAwNzgtLjMyLS43ODU2LS40My0xLjU5OC0uMzI4LTIuNDM3MS4xMTQtLjg0MDcuNDQtMS42MDczLjk3Ni0yLjI5OTcuNTM3LS42OTI0IDEuMTk2LTEuMTk1MiAxLjk3Ni0xLjUwODUuNzkyLS4zMTQ5IDEuNjA5LS40MTUyIDIuNDUtLjMwMS44NDcuMTE5NiAxLjYyNC40NTMyIDIuMzMxIDEuMDAwNy43MDYuNTQ3NSAxLjIyIDEuMjE0MSAxLjU0IDEuOTk5Ny4zMjcuNzkxLjQzNCAxLjYwNjkuMzE5IDIuNDQ3Ni0uMTAxLjgzOTEtLjQyMSAxLjYwNDktLjk1NyAyLjI5NzMtLjUzNy42OTI0LTEuMjAyIDEuMTk2LTEuOTk0IDEuNTEwOS0uNzguMzEzMy0xLjU5NC40MTAxLTIuNDQyLjI5MDUtLjg0MS0uMTE0Mi0xLjYxNC0uNDQ1MS0yLjMyMS0uOTkyNnptLjg1NC0xLjEwMTVjLjQ4My4zNzQgMS4wMS42MDM2IDEuNTgyLjY4ODhzMS4xMzEuMDE0NCAxLjY3Ni0uMjEyNGMuNTUyLS4yMjEzIDEuMDMyLS41OTQzIDEuNDM4LTEuMTE4OC40MDctLjUyNDYuNjUyLTEuMDc5MS43MzYtMS42NjM2LjA4My0uNTg0Ni4wMTItMS4xNDMyLS4yMTMtMS42NzZzLS41ODItLjk4ODktMS4wNzItMS4zNjg0Yy0uNDktLjM3OTQtMS4wMjMtLjYwODItMS42MDEtLjY4NjQtLjU3Mi0uMDg1Mi0xLjEzLS4wMTQ0LTEuNjc2LjIxMjMtLjU0NS4yMjY4LTEuMDIxLjYwMjUtMS40MjcgMS4xMjctLjQwNy41MjQ1LS42NTIgMS4wNzkxLS43MzYgMS42NjM2LS4wNzYuNTktLjAwMiAxLjE1MTMuMjIzIDEuNjg0MS4yMzEuNTI1OC41ODguOTc1NyAxLjA3IDEuMzQ5OHoiLz48cGF0aCBkPSJtMTI1Ljc4NSA0My43NzQ1IDMuNDM2LTguNjM5NC02LjI1IDUuMzUzLS45NS0xLjEwOSA3LjA1Ny02LjA0MzcgMS42NDkgMS45MjU1LTMuNDQ2IDguNjQ4MSA2LjI2LTUuMzYxNi45NSAxLjEwODktNy4wNTcgNi4wNDM3eiIvPjwvZz48L3N2Zz4=">
+
+							<div class="position-relative my-5">
+								<img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjE2MiIgdmlld0JveD0iMCAwIDE2MiAxNjIiIHdpZHRoPSIxNjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iODEuMzcyNCIgY3k9IjgwLjgzNDgiIGZpbGw9IiNmY2Y5ODgiIHI9IjgwLjEyNjMiIHN0cm9rZT0iIzIxMjEyMSIvPjxwYXRoIGQ9Im00Mi40OTczIDk3LjA5NzJjNS44Njk5IDAgOS4yOTgtMy41NjkgOS4yOTgtOS43MjA3di0yMy45MDI0aC01LjYzNTJ2MjMuNjIwN2MwIDMuMjQwMi0xLjE3MzkgNC43ODk4LTMuNjE1OCA0Ljc4OThzLTMuNzU2OC0xLjUwMjctMy43NTY4LTQuNjQ4OXYtOC4zNTg4aC01LjYzNTJ2OC42NDA1YzAgNi4yNDU2IDMuMjQwMyA5LjU3OTggOS4zNDUgOS41Nzk4eiIgZmlsbD0iIzIxMjEyMSIvPjxwYXRoIGQ9Im02MS43MTU5IDk2Ljk1NjNjMy40NzUgMCA1LjQ5NDItMi4xMTMyIDYuNzYyMS02LjQ4MDRoLjg0NTNsLTEuNDU1NyA1Ljg2OTloNS4zNTMzdi0yMi43NzU0aC01LjM1MzN2MTIuNTM4MmMwIDMuNjYyOS0xLjU0OTcgNS45MTY5LTQuMDM4NiA1LjkxNjktMi4wNjYyIDAtMy4wNTIzLTEuMzE0OC0zLjA1MjMtMy45OTE1di0xNC40NjM2aC01LjM1MzR2MTUuNzMxNWMwIDUuMDI0NiAyLjExMzIgNy42NTQ0IDYuMjkyNiA3LjY1NDR6IiBmaWxsPSIjMjEyMTIxIi8+PHBhdGggZD0ibTgyLjc1NDggOTYuMzQ1OHYtMTIuNTM4MmMwLTMuNjYyOCAxLjU5NjctNS45NjM5IDQuMjI2NC01Ljk2MzkgMi4yMDcxIDAgMy4zMzQxIDEuMzYxOSAzLjMzNDEgNC4wMzg2djE0LjQ2MzVoNS4zNTM0di0xNS43Nzg0YzAtNC45Nzc3LTIuMjU0MS03LjY1NDQtNi41NzQzLTcuNjU0NC0zLjU2OSAwLTUuNjgyMSAyLjE2MDEtNi45OTcgNi40ODA0aC0uODQ1M2wxLjUwMjctNS44MjNoLTUuMzUzNHYyMi43NzU0eiIgZmlsbD0iIzIxMjEyMSIvPjxwYXRoIGQ9Im0xMDQuOTEgNzAuMTQyNHYtNi4wMTA4aC01LjYzNTN2Ni4wMTA4em0tLjE0MSAyNi4yMDM0di0yMi43NzU0aC01LjM1MzR2MjIuNzc1NHoiIGZpbGw9IiMyMTIxMjEiLz48cGF0aCBkPSJtMTE0LjMwOSAxMDQuNzk5di04LjQ1MzJsLTEuNTAyLTUuODY5OWguODQ1YzEuMTc0IDQuMjczMyAzLjMzNCA2LjQ4MDQgNi44MDkgNi40ODA0IDIuNjMgMCA0Ljc0My0xLjA4MDEgNi4xNTItMy4xNDYzIDEuNDA5LTIuMDE5MyAyLjExMy00Ljk3NzcgMi4xMTMtOC44NzU0IDAtMy44NTA2LS43MDQtNi44MDkxLTIuMTEzLTguODI4NC0xLjQwOS0yLjA2NjItMy41MjItMy4xOTMyLTYuMTUyLTMuMTkzMi0zLjQ3NSAwLTUuNjM1IDIuMjU0LTYuODA5IDYuNDgwNGgtLjg0NWwxLjUwMi01LjgyM2gtNS4zNTN2MzEuMjI4NnptNC40MTUtMTIuNTg1NmMtMS4zNjIgMC0yLjQ4OS0uNjEwNS0zLjI0MS0xLjY5MDYtLjg0NS0xLjE3NC0xLjI2Ny0zLjA1MjMtMS4yNjctNS41ODgyIDAtMi40ODg4LjQyMi00LjM2NzIgMS4yNjctNS41NDEyLjc1Mi0xLjA4MDEgMS44NzktMS42OTA1IDMuMjQxLTEuNjkwNSAxLjQwOCAwIDIuNTM1LjYxMDQgMy4yODcgMS42OTA1Ljc5OCAxLjIyMSAxLjI2OCAzLjA1MjQgMS4yNjggNS41NDEyIDAgMi41MzU5LS40NyA0LjM2NzMtMS4yNjggNS41ODgyLS43NTIgMS4wODAxLTEuODc5IDEuNjkwNi0zLjI4NyAxLjY5MDZ6IiBmaWxsPSIjMjEyMTIxIi8+PHBhdGggZD0ibTE0Ny4zMTUgNjUuMDE3MWMxLjE5OCA1LjA1NDMgMS44MzIgMTAuMzI2OCAxLjgzMiAxNS43NDczIDAgMzcuNTcwNi0zMC40NTggNjguMDI4Ni02OC4wMjg4IDY4LjAyODYtMzcuNTcxIDAtNjguMDI4NC0zMC40NTgtNjguMDI4NC02OC4wMjg2IDAtNS40MjA1LjYzNC0xMC42OTMgMS44MzE5LTE1Ljc0NzMiIHN0cm9rZT0iIzIxMjEyMSIvPjxnIGZpbGw9IiMyMTIxMjEiPjxwYXRoIGQ9Im0zOS4yMTAyIDQwLjgyNDFjLS4yNTAxLS4wNi0uNTAwNi0uMTYwOC0uNzUxNS0uMzAyNC0uMjU3Ny0uMTQ3My0uNjIwMi0uNDE3NS0xLjA4NzUtLjgxMDQtLjQ5NDQtLjQxNTctLjkyNzUtLjU5NS0xLjI5OTQtLjUzNzctLjM3ODYuMDUxNi0uNzQxNi4yODM5LTEuMDg5LjY5N2wtMS40NTIzIDEuNzI3IDIuOTQ2MSAyLjQ3NzMtLjkzOTcgMS4xMTc1LTcuMTExMS01Ljk3OTcgMi44NjE3LTMuNDAzMmMuMzk4Ni0uNDc0MS44Mjc5LS44MTI2IDEuMjg3Ni0xLjAxNTcuNDU5OC0uMjAzLjkxMjctLjI2NzMgMS4zNTg3LS4xOTI4LjQ0NS4wNjIxLjg0Ny4yNDQgMS4yMDU5LjU0NTguNDUzOC4zODE2LjczNzguODM0My44NTIyIDEuMzU4My4xMDc2LjUxODIuMDUxNCAxLjA2NjMtLjE2ODcgMS42NDQzLjQyNTgtLjIzMTUuODU0LS4zMjgyIDEuMjg0My0uMjkuNDIzNi4wMzI1Ljg3MDguMjI5MyAxLjM0MTcuNTkwNi40MzAyLjMyNzEuNzYxMS41NTkxLjk5MjguNjk2MS4yMzA1LjEyNDUuNDgzNS4xODExLjc1ODkuMTY5OWwuMTYyNS4xMzY3em0tNC45MDk3LTIuMzA3NmMuMzI0Ni0uMzg2LjQ4NzItLjc1OC40ODc2LTEuMTE2MS4wMDYyLS4zNjQ3LS4xNTMzLS42ODM4LS40Nzg0LS45NTcyLS4zMjUxLS4yNzMzLS42NjY4LS4zNzU3LTEuMDI1MS0uMzA3LS4zNTI2LjA2MTgtLjY5MTIuMjg1OC0xLjAxNTkuNjcxOGwtMS44MzY2IDIuMTg0MiAyLjAzMTggMS43MDg1eiIvPjxwYXRoIGQ9Im00Mi41MTM4IDM3LjQ5MTYtNS45NTM0LTcuMTMzMiA1LjE5Ny00LjMzNzUuODkzIDEuMDctNC4wNzYxIDMuNDAxOSAxLjUzMDkgMS44MzQzIDMuNzcwNC0zLjE0NjguODkzIDEuMDctMy43NzA0IDMuMTQ2OCAxLjc0MzUgMi4wODkgNC4xNzgtMy40ODcuODkzIDEuMDd6Ii8+PHBhdGggZD0ibTQ2LjQxMjkgMjIuOTQyNSA2Ljc2NTkgNS40OTAxLTEuMjIwNi04LjYyNzIgMS40MzI1LS44MTA0IDEuMjQ3NyA5Ljk2OS0xLjc1NTkuOTkzNC03LjkwMjEtNi4yMDQ1eiIvPjxwYXRoIGQ9Im02MS40NjM0IDI1LjkxOTEtMS4zNjEuNTI4NC0zLjM2MjYtOC42NjEzIDEuMzYxLS41Mjg0eiIvPjxwYXRoIGQ9Im02NS4zODAyIDI0LjU0ODktMi4xNjE5LTkuMDM2MSA2LjU4MzQtMS41NzUxLjMyNDMgMS4zNTU0LTUuMTYzNSAxLjIzNTQuNTU1OSAyLjMyMzUgNC43NzYzLTEuMTQyNy4zMjQyIDEuMzU1NC00Ljc3NjIgMS4xNDI3LjYzMzEgMi42NDYzIDUuMjkyNi0xLjI2NjIuMzI0MyAxLjM1NTR6Ii8+PHBhdGggZD0ibTc4LjcwODggMjIuMzYzLTIuMzg4My4wNjQ3LTIuNDQxLTkuMjI4NCAxLjUyNTktLjA0MTMgMi4wODE2IDguMjE1NyAxLjYzMzUtOC4zMTY0IDIuNTIwOS0uMDY4MyAyLjA4MTYgOC4yMTU3IDEuNjMzNS04LjMxNjQgMS41MjU5LS4wNDE0LTEuOTM3NiA5LjM0NzEtMi4zODgyLjA2NDctMi4xNDk0LTguMjY3eiIvPjxwYXRoIGQ9Im04OS4wMzA5IDIyLjcyMyAxLjY2OTMtOS4xNCA2LjY1OTIgMS4yMTYyLS4yNTA0IDEuMzcxLTUuMjIyOS0uOTUzOS0uNDI5MiAyLjM1MDMgNC44MzExLjg4MjMtLjI1MDQgMS4zNzEtNC44MzExLS44ODIzLS40ODg5IDIuNjc2NyA1LjM1MzQuOTc3Ny0uMjUwNCAxLjM3MXoiLz48cGF0aCBkPSJtOTguNjQxNiAyNC44MDggMy4yODQ0LTguNjkxNCAzLjI5IDEuMjQzNGMuOTI3LjM1MDMgMS42NDYuODM5NCAyLjE1NiAxLjQ2NzIuNTEzLjYxOTYuODEgMS4zMjMxLjg5MSAyLjExMDRzLS4wNDIgMS42MTE0LS4zNjcgMi40NzIyYy0uMzA5LjgxOTUtLjc1NiAxLjQ4NzktMS4zMzkgMi4wMDUzLS41ODQuNTE3NC0xLjI3My44Mzg4LTIuMDY3Ljk2NDItLjc5NS4xMjU0LTEuNjQ4LjAxNi0yLjU1OC0uMzI4em00LjE4MDQtNi45MzM3LTIuMzQ1IDYuMjA4MSAxLjkyNC43MjczYy42MzcuMjQwOCAxLjIzMS4zMDkxIDEuNzgxLjIwNDguNTU0LS4xMTI1IDEuMDI4LS4zNTQxIDEuNDI0LS43MjUuNDA3LS4zNzU5LjcxNS0uODQxMi45MjQtMS4zOTU4LjIzMi0uNjEyNS4zMjUtMS4xOTY5LjI4LTEuNzUzMi0uMDQyLS41NjQ1LS4yMzUtMS4wNjc4LS41NzktMS41MDk5LS4zNDQtLjQ0Mi0uODM4LS43ODUxLTEuNDg0LTEuMDI5eiIvPjxwYXRoIGQ9Im0xMTcuMDI5IDM0Ljc0OTRjLS43MDYtLjU0NzUtMS4yMjMtMS4yMTY4LTEuNTUtMi4wMDc4LS4zMjEtLjc4NTctLjQzLTEuNTk4LS4zMjgtMi40MzcyLjExNC0uODQwNy40NC0xLjYwNzIuOTc2LTIuMjk5Ni41MzctLjY5MjQgMS4xOTUtMS4xOTUyIDEuOTc2LTEuNTA4NS43OTItLjMxNDkgMS42MDktLjQxNTMgMi40NS0uMzAxLjg0Ny4xMTk2IDEuNjI0LjQ1MzIgMi4zMzEgMS4wMDA3LjcwNi41NDc1IDEuMjE5IDEuMjE0IDEuNTQgMS45OTk3LjMyNy43OTEuNDM0IDEuNjA2OS4zMTkgMi40NDc2LS4xMDEuODM5MS0uNDIxIDEuNjA0OS0uOTU3IDIuMjk3My0uNTM3LjY5MjQtMS4yMDIgMS4xOTYtMS45OTQgMS41MTA5LS43OC4zMTMzLTEuNTk0LjQxMDEtMi40NDIuMjkwNS0uODQxLS4xMTQzLTEuNjE0LS40NDUxLTIuMzIxLS45OTI2em0uODU0LTEuMTAxNmMuNDgzLjM3NDEgMS4wMS42MDM3IDEuNTgyLjY4ODkuNTcyLjA4NTEgMS4xMzEuMDE0NCAxLjY3Ni0uMjEyNC41NTItLjIyMTMgMS4wMzItLjU5NDMgMS40MzgtMS4xMTg4LjQwNy0uNTI0Ni42NTItMS4wNzkxLjczNS0xLjY2MzYuMDg0LS41ODQ2LjAxMy0xLjE0MzItLjIxMi0xLjY3NnMtLjU4Mi0uOTg4OS0xLjA3Mi0xLjM2ODRjLS40OS0uMzc5NC0xLjAyMy0uNjA4My0xLjYwMS0uNjg2NS0uNTcyLS4wODUxLTEuMTMxLS4wMTQzLTEuNjc2LjIxMjQtLjU0NS4yMjY4LTEuMDIxLjYwMjQtMS40MjcgMS4xMjctLjQwNy41MjQ1LS42NTIgMS4wNzkxLS43MzYgMS42NjM2LS4wNzYuNTg5OS0uMDAyIDEuMTUxMy4yMjMgMS42ODQxLjIzMS41MjU4LjU4Ny45NzU3IDEuMDcgMS4zNDk3eiIvPjxwYXRoIGQ9Im0xMjYuNTM5IDQzLjk4MDcgMy40MzYtOC42Mzk1LTYuMjUgNS4zNTMtLjk1LTEuMTA4OSA3LjA1Ny02LjA0MzcgMS42NDkgMS45MjU1LTMuNDQ2IDguNjQ4MSA2LjI2LTUuMzYxNi45NSAxLjEwODktNy4wNTcgNi4wNDM3eiIvPjwvZz48L3N2Zz4=">
+							</div>
+						</div>
+						
+					</div>
+											
+
+				</div>
+				
+			</div>
+			
+		</div>
+
+
+	</section>
+
+	<!-- Smarth Gathering -->
+	<section class="mb-5">
+
+		<div class="container">
+			<h2 class="text-success-emphasis mb-3">SMART GATHERING</h2>
+			<h2>Meet customers <span class="text-success-emphasis">when</span>  and <span class="text-success-emphasis">where</span> <br> it’s easiest for them to review.</h2>
+
+			<div class="row mt-4">
+				
+				<div class="col-sm">
+					<img class="img-fluid" src="https://junip.co/_next/static/images/gathering_1-00611e0e6a21b2babd66bc0a7fde072f.svg">			
+					<p class="mt-3">Send requests straight from Junip, or from your Email & SMS tools of choice</p>			
+				</div>
+
+				<div class="col-sm">
+					<img class="img-fluid" src="https://junip.co/_next/static/images/gathering_2-6e71f3fc81d52b89eb8e948c4431a617.svg">
+					<p class="mt-3">Prompt from places your customers visit most - account page, packaging, tracking pages & more</p>
+				</div>
+
+			</div>
+
+		</div>
+
+		
+	</section>
+
+	<!-- Smoother Submissions -->
+	<section class="p-5 mt-3 mb-5">
+
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+
+				<div class="col-md-5 mb-5 mb-m-0">
+					<h2  class="text-success-emphasis"><u>SMOOTHER <br> SUBMISSIONS.</u></h2>
+					
+					<div class="card mt-5 mb-3 border border-0 bg-warning-subtle" >
+						<h5 class="card-title text-success-emphasis mt-4 ms-3">MOBILE FIRST, DESKTOP SECOND</h5>
+					  	<div class="card-body">
+					    	Over 80% of reviews are submitted on mobile. It’s not 
+					    	even close. Our core focus is ensuring everything is  opitimized for the small screen :)
+					  	</div>
+					</div>
+
+					<div class="card border border-0 bg-warning-subtle" >
+						<h5 class="card-title text-success-emphasis mt-4 ms-3">EASY, SIMPLE & FUN SUBMISSIONS</h5>
+					  	<div class="card-body">
+					    	Progressive & animated forms prevent customers from being overwhelmed - so everyone who starts to submit, finishes.
+					  	</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-5">
+					<img class="img-fluid " src="img/mobile.png">
+				</div>
+			
+			</div>
+		</div>
+		
+	</section>
+
+	<!-- People are Talking -->
+	<section class="p-3 bg-warning ">
+
+		<div class="row justify-content-between text-center ">
+			
+			<div class="col align-self-center">
+				<h3 class="text-success-emphasis">PEOPLE ARE TALKING</h3>
+			</div>
+
+			<div class="col d-none d-sm-block">
+				<h3 class="text-success-emphasis">PEOPLE ARE TALKING</h3>
+			</div>
+
+			<div class="col d-none d-lg-block">
+				<h3 class="text-success-emphasis">PEOPLE ARE TALKING</h3>
+			</div>
+
+			<div class="col d-none d-xl-block">
+				<h3 class="text-success-emphasis">PEOPLE ARE TALKING</h3>
+			</div>
+
+
+		</div>
+		
+	</section>
+
+	<!-- Testimonials -->
+	<section class="p-5 bg-success">
+		
+		<div class="container">
+
+			<div class="row justify-content-center">
+
+				<div class="col col-lg-7 text-start">
+
+					<div class="card p-4 position-relative">
+					  	<div class="card-body">
+						    <h5 class="card-title mb-3 text-success-emphasis">“Junip is by far the best review platform we've used.</h5>
+						    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+						    <p class="card-text text-success-emphasis mb-3">The ease of integration with Shopify/Klaviyo is a breeze, and the ability to customize the end user experience is super flexible. Above all else, the customer support is the best I've experienced. If you're considering switching from another platform, do it and don't look back!”</p>
+						    <p class="card-text text-success-emphasis">Trey Sisson, Founder @ Baboon to the Moon</p>
+					  	</div>
+
+					  	<img src="https://randomuser.me/api/portraits/men/15.jpg" class="img-fluid rounded-circle position-absolute top-100 start-100 translate-middle" >	
+
+					</div>
+					
+				</div>
+				
+			</div>
+
+			<div class="row justify-content-center mt-5">
+				
+				<div class="col text-center">
+					<a href="#testimonials" class="btn btn-plain text-warning">READ MORE TESTIMONIALS
+						<i class="bi bi-arrow-right text-warning"></i>
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- Reviews -->
+	<section class="p-5 mt-5">
+
+		<div class="container">
+
+			<div class="row align-items-center justify-content-between">
+
+				<div class="col-md-5 mb-5 mb-m-0">
+					<h1 class="text-success-emphasis"><u>Easily leverage your reviews everywhere that matters.</u></h1>
+					
+					<div class="card mt-5 mb-3 border border-0 bg-warning-subtle" >
+						<h5 class="card-title mt-4 ms-3">Add to your storefront in minutes, not weeks</h5>
+					  	<div class="card-body">
+					    	PDP, reviews page & more. One click add sections that automatically inherit the styling of your theme.
+					  	</div>
+					</div>
+
+					<div class="card mb-3 border border-0 bg-warning-subtle" >
+						<h5 class="card-title mt-4 ms-3">Customize to your hearts desire</h5>
+					  	<div class="card-body">
+					    	Total control over CSS within your theme. If that’s not enough, our Display API is available on all plans.
+					  	</div>
+					</div>
+
+					<div class="card border border-0 bg-warning-subtle position-relative" >
+						<h5 class="card-title mt-4 ms-3">Your official Google Shopping partner</h5>
+					  	<div class="card-body">
+					    	As an approved Google Shopping aggregator, Junip sends reviews for use in Product Listings, Ads & more
+					  	</div>
+					  	<img src="img/google2.png" class="img-fluid rounded-circle position-absolute top-100 start-100 translate-middle" >	
+					</div>
+
+				</div>
+
+				<div class="col-md-5">
+					<img class="img-fluid " src="https://junip.co/_next/static/images/display-5b929853b3479777690097a11730746d.png">
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<section class="p-5 bg-warning-subtle">
+
+		<div class="container mt-5">
+
+			<h4 class="text-center text-success-emphasis">FEATURES</h4>
+			<h2 class="text-center mt-4">Everything you’d expect & more.</h2>
+
+			<div class="row p-5">
+
+				<div class="col-6 col-md-4 border border-success p-4 d-flex flex-column justify-content-center">
+					<h5>Photos & videos</h5>
+					<div>
+						Automatically collect photos & videos with reviews on all plans
+					</div>
+					<!-- <p>Automatically collect photos & videos with reviews on all plans</p> -->
+				</div>
+
+				<div class="col-6 col-md-4 border border-left-0 border-success p-4 d-flex flex-column justify-content-center">
+					<h5>Custom questions & traits</h5>
+					<div>
+						Make reviews your own with custom questions & traits
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 border border-left-0 border-success p-4 d-flex flex-column justify-content-center">
+					<h5>Reply, feature & flag</h5>
+					<div>
+						Engage customers with review replies, feature the best for all to see
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 border border-success p-4 d-flex flex-column justify-content-center">
+					<h5>Media galleries</h5>
+					<div>
+						Get the most out of your UGC with media galleries
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 border border-left-0 border-success p-4 d-flex flex-column justify-content-center">
+					<h5>API</h5>
+					<div>
+						Build bespoke displays without fighting a sales team, our API is open to all stores - even free
+					</div>
+				</div>
+
+				<div class="col-6 col-md-4 border border-left-0 border-success p-4 d-flex flex-column justify-content-center">
+					<h5>Syndicate between storefronts</h5>
+					<div>
+						Seamless syndication between storefronts - just click, sync & get back to work
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+		
+	</section>
+
+	<!-- Star Banner -->
+	<section class="p-4 bg-success d-flex justify-content-around">
+
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+		<img class="img-fluid" src="img/star2.png">
+
+	</section>
+
+	<!-- Pricing -->
+	<section class="p-5" id="pricing">
+
+		<div class="container">
+
+			<h4 class="text-center text-success-emphasis">PRINCING</h4>
+			<h2 class="text-center mt-4">Accessible options for brands of all sizes.</h2>
+			<h5 class="text-center mt-4">Every plan comes with a 14-day free trial</h5>
+
+			<div class="row justify-content-between pt-5">
+
+				<div class="col-md-4 mb-4 mb-m-0 d-flex align-items-stretch">
+
+					<div class="card border-dark" style="width: 100%;">
+					  <div class="card-body px-4 d-flex flex-column">
+					    <h5 class="card-title text-success-emphasis">ESSENTIALS</h5>
+					    <h5 class="card-subtitle mb-2 py-3"><span class="h1">$19</span>/month</h5>
+					    <p class="card-text">The core tools for entrepreneurs to start leveraging reviews</p>
+					    <div class="mb-1">
+					    	Monthly usage:
+					    </div>
+
+					    <select class="form-select" aria-label="Default select example">
+						  <!-- <option selected>500 orders</option> -->
+						  <option value="1">500 orders</option>
+						  <option value="2">1,000 orders</option>
+						  <option value="3">1,500 orders</option>
+						</select>
+
+						<div class="my-3">
+							<ul>
+							  <li>Photo & video reviews</li>
+							  <li>Google review snippets</li>
+							  <li>Beautiful forms</li>
+							  <li>Incentives</li>
+							  <li>Email & chat support</li>
+							  <li>API access</li>
+							  <li>2 users</li>
+							</ul>
+						</div>
+
+					    <div class="d-grid col-10 mx-auto mt-auto">
+						  <a href="#pricing" class="btn btn-outline-dark rounded-pill">SIGN UP</a>
+						</div>
+					  </div>
+					</div>
+					
+				</div>
+
+				<div class="col-md-4 mb-4 mb-m-0 d-flex align-items-stretch">
+					
+					<div class="card border-success">
+					  <div class="card-body px-4 d-flex flex-column">
+					    <h5 class="card-title text-success-emphasis">STANDARD</h5>
+					    <h5 class="card-subtitle mb-2 py-3"><span class="h1">$74</span>/month</h5>
+					    <p class="card-text">Everything you need for a growing business</p>
+					    <div class="mb-1">
+					    	Monthly usage:
+					    </div>
+
+					    <select class="form-select" aria-label="Default select example">
+						  <!-- <option selected>500 orders</option> -->
+						  <option value="1">2,000 orders</option>
+						  <option value="2">4,000 orders</option>
+						  <option value="3">6,000 orders</option>
+						</select>
+
+						<div class="my-3">
+							<ul>
+							  <li>Google shopping syndication</li>
+							  <li>Marketing integrations (Klaviyo, Drip, Postscript, Omnisend)</li>
+							  <li>Product traits & grouping</li>
+							  <li>Custom questions</li>
+							  <li>Featured reviewS</li>
+							  <li>4 users</li>
+							  <li>All Essentials features</li>
+							</ul>
+						</div>
+
+					    <div class="d-grid col-10 mx-auto mt-auto">
+						  <a href="#pricing" class="btn btn-success rounded-pill">SIGN UP</a>
+						</div>
+					  </div>
+					</div>
+
+				</div>
+
+				<div class="col-md-4 mb-4 mb-m-0 d-flex align-items-stretch">
+					
+					<div class="card border-dark">
+					  <div class="card-body px-4 d-flex flex-column">
+
+					    <h5 class="card-title text-success-emphasis">PRO</h5>
+					    <h5 class="card-subtitle mb-2 py-3"><span class="h1">$299</span>/month</h5>
+					    <p class="card-text">White glove support & powerful functionality for brands at scale</p>
+					    <div class="mb-1">
+					    	Monthly usage:
+					    </div>
+
+					    <select class="form-select" aria-label="Default select example">
+						  <!-- <option selected>500 orders</option> -->
+						  <option value="1">10,000 orders</option>
+						  <option value="2">15,000 orders</option>
+						  <option value="3">20,000 orders</option>
+						</select>
+
+						<div class="my-3">
+							<ul>
+							  <li>PCustom HTML Emails</li>
+							  <li>Launch manager & support</li>
+							  <li>Up to 4 expansion stores</li>
+							  <li>Regional syndication</li>
+							  <li>10 users</li>
+							  <li>All Standard features</li>
+							</ul>
+						</div>
+
+						<!-- mt-4 mb-3 -->
+					    <div class="d-grid col-10 mx-auto mt-auto"> 
+						  <a href="#pricing" class="btn btn-outline-dark rounded-pill ">SIGN UP</a>
+						</div>
+
+					  </div>
+					</div>
+
+				</div>
+				
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6 mb-4 mb-m-0 d-flex justify-content-stretch">
+					
+					<div class="card border-dark" style="width: 100%;">
+					  <div class="card-body px-4 d-flex flex-column">
+					    <h5 class="card-title text-success-emphasis">FREE</h5>
+					    <!-- <h5 class="card-subtitle mb-2 py-3"><span class="h1">$19</span>/month</h5> -->
+					    <p class="card-text">Basic tooling for new stores, up to 50 orders a month</p>
+					    <div class="d-grid col-7 col-lg-6 col-xl-4  mt-auto">
+						  <a href="#pricing" class="btn btn-success rounded-pill">SIGN UP</a>
+						</div>
+					  </div>
+					</div>
+
+				</div>
+
+				<div class="col-md-6 mb-4 mb-m-0 d-flex align-items-stretch">
+					<div class="card border-dark" style="width: 100%;">
+					  <div class="card-body px-4 d-flex flex-column">
+					    <h5 class="card-title text-success-emphasis">ENTERPRISE</h5>
+					    <!-- <h5 class="card-subtitle mb-2 py-3"><span class="h1">$19</span>/month</h5> -->
+					    <p class="card-text">For stores over 100,000 orders/month, you probably want to talk to us anyways</p>
+
+
+					    <div class="d-grid col-7 col-lg-6 col-xl-4 mt-auto ">
+						  <a href="#pricing" class="btn btn-outline-dark rounded-pill flex-fill">GET IN TOUCH</a>
+						</div>
+					  </div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<!-- Other Parthers -->
+	<section class="p-5 bg-warning-subtle" id="parthers">
+
+		<div class="container text-center">
+
+			<div class="row justify-content-center">
+
+				<div class="col-12">
+					<h1 class="text-success-emphasis">Already powering reviews for 3,000+ <br> of your favorite brands.</h1>
+					<div class="d-flex justify-content-center">
+						<div class="border-bottom border-success border-4 py-4" style="width:200px"></div>
+					</div>
+				</div>
+
+				<div class="col-10">
+					<img src="https://junip.co/_next/static/images/logos-172411ee126d0e6cba5c2e1bf461b1fa.png" class="img-fluid mt-5 mb-5">
+				</div>
+				
+			</div>
+			
+		</div>
+
+	</section>
+
+	<!-- Love Reviews, risk free -->
+	<section class="p-5 bg-success">
+
+		<div class="container">
+
+			<div class="row align-items-center justify-content-between p-3">
+
+				<div class="col-12 col-lg-6 text-lg-start text-center mb-4 mb-lg-0">
+					<h1 class="text-white display-3">LOVE <br> REVIEWS, <br> RISK FREE.</h1>
+					<div class="d-flex justify-content-center justify-content-lg-start">
+						<div class="border-bottom border-warning border-4 " style="width:300px"></div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-6 text-lg-start text-center">
+					<h3 class="text-white">Start gathering reviews for free, today! When you need something more powerful, paid plans start at just $19/month.</h3>
+					<div class="row mt-5 d-flex justify-content-center">
+						<div class="d-grid col-5 col-lg-6 col-xl-4">
+							<a href="#sign" class="btn btn-light rounded-pill" >SIGN UP</a>
+						</div>
+							<div class="col-12 col-lg-5">
+							<a href="#sales" class="btn text-white text-underline mt-3 mt-md-0">CONTACT SALES</a>
+						</div>
+					  <!-- <a href="#" class="btn btn-light rounded-pill" style="width:175px">SIGN UP</a> -->
+					  <!-- <a href="#" class="btn text-white text-underline mt-3 mt-md-0">CONTACT SALES</a> -->
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<!-- Footer -->
+	<footer class="mt-5 mb-2">
+
+		<div class="container">
+
+			<div class="row p-4">
+				
+				<div class="col-md-4 text-center text-lg-start">
+					<h1 class="mb-3">JUNIP*</h1>
+					Made in Canada <span role="img" aria-label="Canadian flag">🇨🇦</span>
+					
+				</div>
+
+				<div class="col-md-8 mt-5 mt-md-0 text-center text-lg-start">
+					
+					<div class="row ms-md-4">
+						
+						<div class="col-md-4 mb-4">
+							<p class="fw-bold">PRODUCT</p>
+							<ul class="nav flex-column">
+								<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Integrations</a>
+								</li>
+								<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Customers</a>
+								</li>
+																<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Pricing</a>
+								</li>
+																<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Parthers</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-md-4 mb-4">
+							<p class="fw-bold">RESOURCES</p>
+							<ul class="nav flex-column">
+								<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Knowledge</a>
+								</li>
+								<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Developers</a>
+								</li>
+								<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Blog</a>
+								</li>
+								<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Updates</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-md-4 mb-4">
+							<p class="fw-bold">COMPANY</p>
+							<ul class="nav flex-column">
+								<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Contacts</a>
+								</li>
+								<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">Careers</a>
+								</li>
+									<li class="nav-item mb-2">
+									<a href="#" class="nav-link p-0 link-dark">
+										<img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjQgMjAiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0yNCAyLjU1NjY5Yy0uODgyMy4zOTE5OC0xLjgzMTkuNjU1OTYtMi44Mjc4Ljc3NTE1IDEuMDE2Ny0uNjA5NTYgMS43OTc1LTEuNTc0MyAyLjE2NDYtMi43MjM4Mi0uOTUwMy41NjQ3Ni0yLjAwNTQuOTczNTQtMy4xMjYxIDEuMTk1MTItLjg5ODQtLjk1NjczMy0yLjE3OTEtMS41NTUwOTMtMy41OTQyLTEuNTU1MDkzLTIuNzE5IDAtNC45MjM3IDIuMjA0NjUzLTQuOTIzNyA0LjkyMzY3MyAwIC4zODU1Ny4wNDQuNzYxNTUuMTI4IDEuMTIyMzItNC4wOTI1MS0uMjA0NzgtNy43MjAyNy0yLjE2NTQ1LTEwLjE0ODkxLTUuMTQ0NDUtLjQyMzk3LjcyNzE1LS42NjYzNiAxLjU3MjctLjY2NjM2IDIuNDc1MDQgMCAxLjcwNzg4Ljg2Nzk0IDMuMjE0OTggMi4xOTAyNiA0LjA5ODEzLS44MDc5NS0uMDI1Ni0xLjU2NjMtLjI0NzE5LTIuMjMxMDU2LS42MTU5N3YuMDYxNmMwIDIuMzg2MjQgMS42OTgyODYgNC4zNzU3MSAzLjk0OTMzNiA0LjgyOTMxLS40MTI3Ny4xMTItLjg0Nzk0LjE3MjgtMS4yOTY3MS4xNzI4LS4zMTc1OCAwLS42MjYzNi0uMDMxMi0uOTI3MTQtLjA4ODguNjI2MzYgMS45NTU4IDIuNDQ1NDQgMy4zNzk3IDQuNTk5NjkgMy40MTk3LTEuNjg0NjggMS4zMTk5LTMuODA3NzQgMi4xMDc5LTYuMTE0NzkgMi4xMDc5LS4zOTgzNzMgMC0uNzkwMzQ2LS4wMjMyLTEuMTc1MTItLjA2OTYgMi4xNzkwNSAxLjM5NjcgNC43NjY4OCAyLjIxMjYgNy41NDc1IDIuMjEyNiA5LjA1NjIgMCAxNC4wMDg3LTcuNTAyNyAxNC4wMDg3LTE0LjAwODYyIDAtLjIxMzU5LS4wMDQtLjQyNjM3LS4wMTQ0LS42MzY3NS45NjMxLS42OTU5NiAxLjc5ODItMS41NjMxIDIuNDU4Mi0yLjU1MDI0eiIgZmlsbD0iIzIxMjEyMSIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+">
+									</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+					<hr>
+
+			<div class="d-flex justify-content-end gap-5 px-5">
+				<a href="" class="no_underline text-dark">PRIVACY POLICY</a>
+				COPYRIGHT 2022, JUNIP INC. ALL RIGHTS RESERVED.
+			</div>
+
+	</footer>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</body>
+</html>
